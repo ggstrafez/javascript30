@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+    background-color: #222;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Task Info */
+.task {
+    margin-top: 128px;
+    margin-bottom: 64px;
+}
+.task__title {
+    font-size: 48px;
+    margin-bottom: 12px;
+    color: rgb(243, 218, 52);
+}
+.task__details {
+   color: rgb(224, 222, 227);
+}
+
+/* Outer Area */
+.drum {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+/* Keys */
+.drum-key {
+    background-color: rgb(243, 218, 52);
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.1s;
+}
+.drum-key--playing {
+    transform: scale(1.1) translate(0, -10px);
+    background-color: rgb(243, 218, 32);
+    box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.68);
+}
+.drum-key__title-key {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.drum-key__sound {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Buttons */
+.links {
+    margin-top: 64px;
+    text-align: right;
+}
+.links__btn {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 8px;
+    border: 2px solid;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 24px;
+}
+.links__btn:hover {
+    border-style: dashed;
+}
+.links__btn--j30 {
+    border-color: #ffc600;
+    color: #ffc600;
+}
+.links__btn--twitter {
+    border-color: #55acee;
+    color: #55acee;
+}
+.links__btn--gmail {
+    border-color: #dd4b39;
+    color: #dd4b39;
+}
+.links__btn--last {
+    margin-right: 0;
+}
