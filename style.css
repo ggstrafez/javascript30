@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+    background-color: #222;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Task Info */
+.task {
+    margin-top: 128px;
+    margin-bottom: 64px;
+}
+.task__title {
+    font-size: 48px;
+    margin-bottom: 12px;
+    color: rgb(243, 218, 52);
+}
+.task__details {
+   color: rgb(224, 222, 227);
+}
+
+/* Outer Area */
+.progress {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Keys */
+.progress__block {
+    background-color: rgb(243, 218, 52);
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.1s;
+}
