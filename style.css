@@ -48,11 +48,12 @@ body {
 .text-link::after {
 	content: "";
 	position: absolute;
-	bottom: -3px;
+	bottom: 2px;
 	left: 0;
 	width: 100%;
+	z-index: -1;
 	height: 8px;
 }
-.text-link::after .text-link--j30 {
+.text-link--j30::after {
 	background-color: #ffc600;
 }
