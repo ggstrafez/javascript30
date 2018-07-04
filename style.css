@@ -44,6 +44,8 @@ body {
 .text-link {
     z-index: 1;
     position: relative;
+    text-decoration: none;
+    color: #fff;
 }
 .text-link::after {
     content: "";
@@ -56,4 +58,5 @@ body {
 }
 .text-link--j30::after {
     background-color: #ffc600;
+    opacity: 0.5;
 }
