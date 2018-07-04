@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 body {
-    background-color: #222;
+    background-color: #ffecd2;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -19,10 +19,10 @@ body {
 .task__title {
     font-size: 48px;
     margin-bottom: 12px;
-    color: rgb(243, 218, 52);
+    color: #fda085;
 }
 .task__details {
-   color: rgb(224, 222, 227);
+   color: #222;
 }
 
 /* Outer Area */
@@ -45,7 +45,6 @@ body {
     z-index: 1;
     position: relative;
     text-decoration: none;
-    color: #fff;
 }
 .text-link::after {
     content: "";
@@ -58,5 +57,4 @@ body {
 }
 .text-link--j30::after {
     background-color: #ffc600;
-    opacity: 0.5;
 }
