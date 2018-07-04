@@ -52,9 +52,10 @@ body {
     width: 100%;
     z-index: -1;
     height: 8px;
+    transition: 0.24s ease;
 }
 .text-link:hover:after {
-    height: calc(100% + 2px);
+    height: calc(100% - 2px);
 }
 .text-link--j30::after {
     background-color: #ffc600;
