@@ -42,18 +42,18 @@ body {
 
 /* Text Link */
 .text-link {
-	z-index: 1;
-	position: relative;
+    z-index: 1;
+    position: relative;
 }
 .text-link::after {
-	content: "";
-	position: absolute;
-	bottom: 2px;
-	left: 0;
-	width: 100%;
-	z-index: -1;
-	height: 8px;
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 8px;
 }
 .text-link--j30::after {
-	background-color: #ffc600;
+    background-color: #ffc600;
 }
