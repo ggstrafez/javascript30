@@ -53,6 +53,9 @@ body {
     z-index: -1;
     height: 8px;
 }
+.text-link:hover:after {
+    height: calc(100% + 2px);
+}
 .text-link--j30::after {
     background-color: #ffc600;
 }
