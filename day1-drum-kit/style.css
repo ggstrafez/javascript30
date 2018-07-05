@@ -20,6 +20,7 @@ body {
     font-size: 48px;
     margin-bottom: 12px;
     color: rgb(243, 218, 52);
+    font-weight: normal;
     font-family: 'Knewave', cursive;
 }
 .task__details {
@@ -48,8 +49,9 @@ body {
 .drum-key__title-key {
     color: #000;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 0;
+    font-family: 'Knewave', cursive;
 }
 .drum-key__sound {
     color: #000;
