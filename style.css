@@ -37,9 +37,12 @@ body {
 .progress__icon {
     padding: 64px 0;
 }
-.progress__icon i {
-    widows: 64px;
-    height: 64px;
+.progress__icon {
+    font-size: 64px;
+}
+.icon__block {
+    width: 128px;
+    height: 128px;
     border-radius: 50%;
     background-color: red;
 }
