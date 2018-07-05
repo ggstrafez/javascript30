@@ -33,19 +33,23 @@ body {
     text-decoration: none;
 }
 .progress__block {
-    background-color: #a18cd1;
+    background-color: #f3f5f5;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 12px;
+    padding-bottom: 64px;
 }
 .progress__icon {
-    padding: 64px 0;
-    font-size: 64px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    font-size: 92px;
 }
 .icon__block {
-    width: 128px;
-    height: 128px;
+    width: 248px;
+    height: 248px;
+    line-height: 248px;
+    margin: auto;
     border-radius: 50%;
-    background-color: red;
+    background-color: #fad0c4;
 }
 .progress__title {
     font-size: 18px;
@@ -53,7 +57,7 @@ body {
 }
 .progress__day {
     color: #eee;
-    font-style: italic;
+    margin-bottom: 0;
 }
 
 /* Text Link */
