@@ -23,19 +23,33 @@ body {
     color: #fda085;
 }
 
-/* Outer Area */
+/* Progress */
 .progress {
     display: grid;
     grid-gap: 24px;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-
-/* Keys */
 .progress__block {
     background-color: #a18cd1;
     text-align: center;
     border-radius: 8px;
-    transition: 0.1s;
+}
+.progress__icon {
+    padding: 64px 0;
+}
+.progress__icon i {
+    widows: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: red;
+}
+.progress__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.progress__day {
+    color: #eee;
+    font-style: italic;
 }
 
 /* Text Link */
