@@ -26,7 +26,7 @@ body {
 /* Progress */
 .progress {
     display: grid;
-    grid-gap: 24px;
+    grid-gap: 36px;
     grid-template-columns: repeat(3, 1fr);
 }
 .progress__link {
@@ -37,6 +37,10 @@ body {
     text-align: center;
     border-radius: 12px;
     padding-bottom: 64px;
+    transition: 0.25s ease;
+}
+.progress__block:hover {
+    transform: scale(0.95);
 }
 .progress__icon {
     padding-top: 64px;
@@ -74,10 +78,14 @@ body {
     width: 100%;
     z-index: -1;
     height: 8px;
+    color: #222;
     transition: 0.24s ease;
 }
+.text-link:hover: {
+    color: #fff;
+}
 .text-link:hover:after {
-    height: calc(100% - 4px);
+    height: calc(100% - 6px);
 }
 .text-link--j30::after {
     background-color: #ffc600;
