@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 body {
-    background-color: #222;
+    color: #222;
+    background-color: #ffecd2;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -19,10 +20,7 @@ body {
 .task__title {
     font-size: 48px;
     margin-bottom: 12px;
-    color: rgb(243, 218, 52);
-}
-.task__details {
-   color: rgb(224, 222, 227);
+    color: #fda085;
 }
 
 /* Outer Area */
@@ -34,7 +32,7 @@ body {
 
 /* Keys */
 .progress__block {
-    background-color: rgb(243, 218, 52);
+    background-color: #a18cd1;
     text-align: center;
     border-radius: 8px;
     transition: 0.1s;
@@ -44,6 +42,7 @@ body {
 .text-link {
     z-index: 1;
     position: relative;
+    text-decoration: none;
 }
 .text-link::after {
     content: "";
@@ -53,6 +52,10 @@ body {
     width: 100%;
     z-index: -1;
     height: 8px;
+    transition: 0.24s ease;
+}
+.text-link:hover:after {
+    height: calc(100% - 2px);
 }
 .text-link--j30::after {
     background-color: #ffc600;
